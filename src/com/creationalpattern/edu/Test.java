@@ -8,6 +8,8 @@ public class Test {
 
     public static void main(String [] args){
 
+        System.out.println(SingleTone3.INSTANCE);
+
         test("hello");
 
     }
@@ -15,12 +17,12 @@ public class Test {
 
     public  static void test(String str){
 
-        System.out.println("test method with string is called! ");
+        System.out.println("Test method with string is executed! ");
     }
 
     public static void test(Object obj){
 
-        System.out.print("test method with Object is called! ");
+        System.out.print("Test method with Object is executed! ");
     }
 
 

@@ -6,7 +6,7 @@ package com.creationalpattern.edu;
  */
 public class SingleTone {
 
-    private static final singleTone = new SingleTone();
+    private static final SingleTone singleTone = new SingleTone();
 
     private SingleTone(){}
 
